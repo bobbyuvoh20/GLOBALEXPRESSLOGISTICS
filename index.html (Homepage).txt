@@ -1,0 +1,56 @@
+index.html (Homepage)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Express Logistics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Global Express Logistics</h1>
+        <p>Your trusted partner in global shipping and logistics.</p>
+    </header>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>International Freight Forwarding</li>
+            <li>Sea & Air Cargo</li>
+            <li>Customs Brokerage</li>
+            <li>Warehousing & Distribution</li>
+            <li>Door-to-Door Delivery</li>
+        </ul>
+    </section>
+
+    <section id="track">
+        <h2>Track Your Shipment</h2>
+        <form action="#" method="post">
+            <label for="tracking-number">Enter Tracking Number:</label>
+            <input type="text" id="tracking-number" name="tracking-number" required>
+            <button type="submit">Track</button>
+        </form>
+        <p>Tracking Status: <span id="status">In Transit</span></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="mailto:info@globalexpresslogistics.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Phone: +1 (904) 383-7855</p>
+        <p>Email: <a href="mailto:info@globalexpresslogistics.com">info@globalexpresslogistics.com</a></p>
+    </section>
+</body>
+</html>
